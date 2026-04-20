@@ -7,7 +7,7 @@ frames = [
     """
   ^  ^
  (  o.o)
-o(uuuuu)o
+o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -21,7 +21,7 @@ o(uuuuu)o
     """
    ^  ^
   (  o.o)
-o(uuuuu)o
+o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -35,7 +35,7 @@ o(uuuuu)o
     """
     ^  ^
    (  o.o)
- o(uuuuu)o
+ o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -49,7 +49,7 @@ o(uuuuu)o
     """
      ^  ^
     (  o.o)
-  o(uuuuu)o
+  o(uuuuuu)o
   (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -63,7 +63,7 @@ o(uuuuu)o
     """
       ^  ^
      (  o.o)
-   o(uuuuu)o
+   o(uuuuuu)o
    (uuuuuu)
   (uuuuuu)
  (uuuuuu)
@@ -77,7 +77,7 @@ o(uuuuu)o
     """
        ^  ^
       (  o.o)
-    o(uuuuu)o
+    o(uuuuuu)o
     (uuuuuu)
    (uuuuuu)
   (uuuuuu)
@@ -91,7 +91,7 @@ o(uuuuu)o
     """
        ^  ^
       (  o.o)
-     o(uuuuu)o
+     o(uuuuuu)o
      (uuuuuu)
     (uuuuuu)
    (uuuuuu)
@@ -105,7 +105,7 @@ o(uuuuu)o
     """
       ^  ^
      (  o.o)
-     o(uuuuu)o
+     o(uuuuuu)o
       (uuuuuu)
      (uuuuuu)
     (uuuuuu)
@@ -119,7 +119,7 @@ o(uuuuu)o
     """
      ^  ^
     (  o.o)
-    o(uuuuu)o
+    o(uuuuuu)o
       (uuuuuu)
       (uuuuuu)
      (uuuuuu)
@@ -133,7 +133,7 @@ o(uuuuu)o
     """
     ^  ^
    (  o.o)
-   o(uuuuu)o
+   o(uuuuuu)o
      (uuuuuu)
       (uuuuuu)
       (uuuuuu)
@@ -147,7 +147,7 @@ o(uuuuu)o
     """
    ^  ^
   (  o.o)
-  o(uuuuu)o
+  o(uuuuuu)o
     (uuuuuu)
      (uuuuuu)
       (uuuuuu)
@@ -161,7 +161,7 @@ o(uuuuu)o
     """
   ^  ^
  (  o.o)
- o(uuuuu)o
+ o(uuuuuu)o
    (uuuuuu)
     (uuuuuu)
      (uuuuuu)
@@ -175,7 +175,7 @@ o(uuuuu)o
     """
   ^  ^
  (  o.o)
-o(uuuuu)o
+o(uuuuuu)o
   (uuuuuu)
    (uuuuuu)
     (uuuuuu)
@@ -189,7 +189,7 @@ o(uuuuu)o
     """
    ^  ^
   (  o.o)
-o(uuuuu)o
+o(uuuuuu)o
  (uuuuuu)
   (uuuuuu)
    (uuuuuu)
@@ -203,7 +203,7 @@ o(uuuuu)o
     """
     ^  ^
    (  o.o)
- o(uuuuu)o
+ o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
   (uuuuuu)
@@ -217,7 +217,7 @@ o(uuuuu)o
     """
      ^  ^
     (  o.o)
-  o(uuuuu)o
+  o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
   (uuuuuu)
@@ -231,7 +231,7 @@ o(uuuuu)o
     """
       ^  ^
      (  o.o)
-   o(uuuuu)o
+   o(uuuuuu)o
   (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -245,7 +245,7 @@ o(uuuuu)o
     """
       ^  ^
      (  o.o)
-    o(uuuuu)o
+    o(uuuuuu)o
    (uuuuuu)
   (uuuuuu)
  (uuuuuu)
@@ -259,7 +259,7 @@ o(uuuuu)o
     """
      ^  ^
     (  o.o)
-    o(uuuuu)o
+    o(uuuuuu)o
     (uuuuuu)
    (uuuuuu)
   (uuuuuu)
@@ -273,7 +273,7 @@ o(uuuuu)o
     """
     ^  ^
    (  o.o)
-  o(uuuuu)o
+  o(uuuuuu)o
     (uuuuuu)
     (uuuuuu)
    (uuuuuu)
@@ -287,7 +287,7 @@ o(uuuuu)o
     """
    ^  ^
   (  o.o)
-  o(uuuuu)o
+  o(uuuuuu)o
    (uuuuuu)
    (uuuuuu)
   (uuuuuu)
@@ -301,7 +301,7 @@ o(uuuuu)o
     """
   ^  ^
  (  o.o)
- o(uuuuu)o
+ o(uuuuuu)o
   (uuuuuu)
   (uuuuuu)
  (uuuuuu)
@@ -315,7 +315,7 @@ o(uuuuu)o
     """
   ^  ^
  (  o.o)
-o(uuuuu)o
+o(uuuuuu)o
  (uuuuuu)
  (uuuuuu)
  (uuuuuu)
@@ -348,4 +348,3 @@ def animate (frames, speed, loop=True):
 
 #above are just the directions for the animate function, here is the actual order
 animate(frames, speed=0.05, loop=True)
-
