@@ -12,8 +12,6 @@ height = 600
 tracer(0, 0)
 hideturtle()
 speed(0)
-color('random')
-fillcolor('yellow')
 pensize(2)
 
 def random_spot():
@@ -41,10 +39,10 @@ def stars():
 
     update()
 
-colors = ["#483D8B", "#87CEFA", "#8470FF", "#20B2AA", "90EE90", "#9ACD32", "F08080", "#FF8247", "#FF82AB", "#E066FF", "#9F79EE", "#DA70D6", "#551A8B")
+colors = ["#483d8b", "#87cefa", "#8470ff", "#20b2aa", "#90ee90", "#9acd32", "#f08080", "#ff8247", "#ff82ab", "#e066ff", "#9f79ee", "#da70d6", "#551a8b")
 
 def repeat(times: int=50):
-    for i in range(50):
+    for i in range(times):
         pencolor(random.choice(colors))
         fillcolor(random.choice(colors))
         stars()
