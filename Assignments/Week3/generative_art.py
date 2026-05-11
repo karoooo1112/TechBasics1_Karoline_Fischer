@@ -39,7 +39,7 @@ def stars():
 
     update()
 
-colors = ["#483d8b", "#87cefa", "#8470ff", "#20b2aa", "#90ee90", "#9acd32", "#f08080", "#ff8247", "#ff82ab", "#e066ff", "#9f79ee", "#da70d6", "#551a8b")
+colors = ["#483d8b", "#87cefa", "#8470ff", "#20b2aa", "#90ee90", "#9acd32", "#f08080", "#ff8247", "#ff82ab", "#e066ff", "#9f79ee", "#da70d6", "#551a8b"]
 
 def repeat(times: int=50):
     for i in range(times):
