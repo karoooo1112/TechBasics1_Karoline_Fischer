@@ -2,7 +2,7 @@ import random
 from turtle import * 
 
 width = 400 
-height = 600
+height = 400
 
 #screen = turtle.screen()
 #screen.setup(width=width, height=height)
@@ -15,11 +15,12 @@ speed(0)
 pensize(2)
 
 def random_spot():
-    half_w = width // 2 
-    half_h = height // 2 
+    #half_w = width // 2 
+    #half_h = height // 2 
+    #now also useless, looks better with new settings
 
-    x = random.randint (-half_w, half_w)
-    y = random.randint (-half_h, half_h)
+    x = random.randint (-width, width)
+    y = random.randint (-height, height)
     return x, y 
 
 def stars():
@@ -41,7 +42,7 @@ def stars():
 
 colors = ["#483d8b", "#87cefa", "#8470ff", "#20b2aa", "#90ee90", "#9acd32", "#f08080", "#ff8247", "#ff82ab", "#e066ff", "#9f79ee", "#da70d6", "#551a8b"]
 
-def repeat(times: int=50):
+def repeat(times: int=100):
     for i in range(times):
         pencolor(random.choice(colors))
         fillcolor(random.choice(colors))
