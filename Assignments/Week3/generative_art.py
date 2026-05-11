@@ -6,12 +6,13 @@ height = 600
 
 #screen = turtle.screen()
 #screen.setup(width=width, height=height)
+#is useless
 
 
-tracer (0, 0)
+tracer(0, 0)
 hideturtle()
 speed(0)
-color('red')
+color('random')
 fillcolor('yellow')
 pensize(2)
 
@@ -40,8 +41,12 @@ def stars():
 
     update()
 
+colors = ["#483D8B", "#87CEFA", "#8470FF", "#20B2AA", "90EE90", "#9ACD32", "F08080", "#FF8247", "#FF82AB", "#E066FF", "#9F79EE", "#DA70D6", "#551A8B")
+
 def repeat(times: int=50):
     for i in range(50):
+        pencolor(random.choice(colors))
+        fillcolor(random.choice(colors))
         stars()
 
 if __name__ == "__main__":
