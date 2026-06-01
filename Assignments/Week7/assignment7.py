@@ -25,6 +25,7 @@ def italic (text: str) -> str:
     return f"\n\x1b[3m{text}\x1b[0m\n" 
         # the \n also moves to a new line before and after (only useful in this case, in other scenarios I'd be unnecessarry)
 
+# new
 def _load_records() -> list[dict]:
     records = []
     if not os.path.exists(RECORD_FILE):
@@ -51,6 +52,7 @@ def _load_records() -> list[dict]:
         print(f"Record file could not be read: {e}")
     return records
 
+# new
 def _save_record (name: str, timestamp: str, score: int) -> None: 
     line = SEPARATOR.join([name, timestamp, str(score)]) + "\n"
     
@@ -60,7 +62,7 @@ def _save_record (name: str, timestamp: str, score: int) -> None:
     except Exception as e:
         print (f"Record file could not be written on: {e}")
 
-
+# new
 def _show_leaderboard(top_n: int = 10) -> None:
     records = _load_records()
     if not records:
@@ -80,7 +82,7 @@ def _show_leaderboard(top_n: int = 10) -> None:
     print ("-"*40)
     print ()
 
-
+# new
 def _record_result_and_show (name: str, used_seconds: int) -> None:
     timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     _save_record(name, timestamp, used_seconds)
@@ -483,6 +485,7 @@ def examine(item_name):
 
 def game_over():
     print("\n⏰ TIME'S UP! You missed the bus and the day is ruined.")
+    # new
     used_seconds = START_TIME
     player_name = input("\n Enter your name for the leaderboard, please: ").strip()
     _record_result_and_show(player_name, used_seconds)
@@ -587,6 +590,8 @@ def parse_command(raw):
     
     elif cmd in ("quit", "exit"):
         print ("You gave up. Better luck next time!")
+        # new
+        # if they give up, they still get added to the scoreboard, but with the max time 
         used_seconds = int(START_TIME)
         player_name = input("\n Enter your name for the leaderboard, please: ").strip()
         _record_result_and_show(player_name, used_seconds)
@@ -599,6 +604,7 @@ def parse_command(raw):
 # MAIN Loop
 if __name__ == "__main__":
 
+    # DEBUGGING flag to try out the scoreboard without having to play the whole game 
     if DEBUG:
         print("\n DEBUG mode activated --> the game will not start")
         name = input ("Enter a test name for the leaderboard: ").strip()
@@ -659,7 +665,8 @@ if __name__ == "__main__":
         # just beauty addition lol, not really necessarry, but if user presses Ctrl-C now, they get a nice goodbye instead of a Traceback
         except KeyboardInterrupt:
             print ("\nInterrupted - goodbye!")
-
+            #new
+            #player still gets added to the scoreboard, but again max time 
             used_seconds = int(START_TIME)
             player_name = input("\n Enter your name for the leaderboard, please: ").strip()
             _record_result_and_show(player_name, used_seconds)
